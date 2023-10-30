@@ -1,0 +1,113 @@
+@import url(https://db.onlinewebfonts.com/c/60e0041cf68ce8938d91eb789e1974a7?family=Felina+Gothic+W00+Regular);
+/* Importo la font de la serie ya que no está recogida en CSS */
+
+/*Estructura básica*/
+
+body {
+    background-color: rgb(18, 92, 68);
+    color: rgb(194, 187, 187);
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Divs */
+.divPrincipal {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.divWesen {
+    width: 15%;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+
+.divContenido {
+    width: 82%;
+    margin-left: 15%;
+    position: absolute;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: "Felina Gothic W00 Regular"; /* Es la font de la serie */
+    text-align: center;
+    color: aliceblue;
+    font-size: 55px;
+}
+
+
+
+#divWesen img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-right: 10%;
+    
+}
+
+
+
+
+/* Listas */
+
+ul {
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  li img {
+    margin-right: 10px;
+  }
+
+  li span {
+    display: flex;
+    align-items: center;
+  }
+
+textarea {
+    width: 250px;
+    height: 100px;
+  }
+
+form input, form label, form textarea, form select {
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button {
+    display: inline-block;
+}
+
+th, td {
+  text-align: center;
+  padding-right: 10px;
+}
+
+table img {
+    width: 150px;
+    height: 150px;
+}
+
+.imagen {
+    margin-left: 14%;
+}

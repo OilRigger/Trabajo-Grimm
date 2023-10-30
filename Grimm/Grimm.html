@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bestiario Grimm</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="Scripts/Js.js"></script>
+</head>
+<body>
+    <h1>Bestiario Grimm</h1>
+    <div class="divPrincipal" id="divPrincipal">
+        <div id="divWesen" class="divWesen">
+            <script>document.addEventListener('DOMContentLoaded', indiceWesen());</script>
+            <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/add_circle_create_expand_new_plus_icon_123218.png" alt="Grimm" onclick="crearFormulario();" id="imagen" class="imagen">
+        </div>
+        <div id="divContenido" class="divContenido">
+            <script>document.addEventListener('DOMContentLoaded', crearTablaWesen(0));</script>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Luis Arregui</p>
+    </footer>
+</body>
+</html>
