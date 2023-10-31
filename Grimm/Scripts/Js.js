@@ -149,7 +149,7 @@ if (wesen) {
   // Crear la fila de datos solo para el objeto especificado
   const row = document.createElement("tr");
 
-  // Crear las celdas de datos
+  // Crear las celdas
   
   const imagenCell = document.createElement("td");
   const imagen = document.createElement("img");
@@ -327,7 +327,7 @@ function editarWesen(index) {
     nombreInput.value = wesen.nombre;
     nombreInput.readOnly = true;
 
-    // Imagen (puedes usar una URL o un campo para cargar una nueva imagen)
+    // Imagen 
     var imagenLabel = document.createElement("label");
     imagenLabel.innerHTML = "Imagen URL: ";
     var imagenInput = document.createElement("input");
